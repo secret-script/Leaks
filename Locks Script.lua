@@ -1,44 +1,62 @@
--- JUJU HUB - SILENT AIM HOOK (DECRYPTED)
+--[[ 
+    Cleaned Version: Silent Aim Hook
+    Function:
+    Intercepts RemoteEvent calls and replaces mouse position
+    with predicted position of the target player.
+]]
 
-local MainEventName = "MainEvent"
-local UpdateMousePos = "UpdateMousePos"
-local MousePos = "MousePos"
-local Prediction = 0.165
+-- Configuration
+local MAIN_EVENT_NAME = "MainEvent"
+local UPDATE_MOUSE_EVENT = "UpdateMousePos"
+local MOUSE_EVENT = "MousePos"
+local PREDICTION_FACTOR = 0.165
 
-local mt = getrawmetatable(game)
-local oldNamecall = mt.__namecall
-setreadonly(mt, false)
+-- Get raw metatable
+local rawMeta = getrawmetatable(game)
+local originalNamecall = rawMeta.__namecall
+setreadonly(rawMeta, false)
 
-mt.__namecall = newcclosure(function(self, ...)
+-- Hook __namecall
+rawMeta.__namecall = newcclosure(function(self, ...)
     local method = getnamecallmethod()
-    local args = {...}
+    local args = { ... }
 
-    if _G.SilentEnabled
-    and not checkcaller()
-    and method == "FireServer"
-    and self.Name == MainEventName then
-        
-        if args[1] == UpdateMousePos or args[1] == MousePos then
+    -- Conditions for Silent Aim
+    if _G.SilentEnabled 
+        and not checkcaller()
+        and method == "FireServer"
+        and self.Name == MAIN_EVENT_NAME
+    then
+        -- Check if event is mouse position related
+        if args[1] == UPDATE_MOUSE_EVENT or args[1] == MOUSE_EVENT then
             
-            local target = game.Players:FindFirstChild(_G.TargetName)
-            if target and target.Character then
-                local hrp = target.Character:FindFirstChild("HumanoidRootPart")
+            -- Find target player
+            local targetPlayer = game.Players:FindFirstChild(_G.TargetName)
+            if targetPlayer and targetPlayer.Character then
                 
-                if hrp then
-                    -- Prediction aim
-                    args[2] = hrp.Position + (hrp.Velocity * Prediction)
-                    return oldNamecall(self, unpack(args))
+                local rootPart = targetPlayer.Character:FindFirstChild("HumanoidRootPart")
+                if rootPart then
+                    
+                    -- Predict position using velocity
+                    local predictedPosition =
+                        rootPart.Position + (rootPart.Velocity * PREDICTION_FACTOR)
+
+                    -- Replace mouse position argument
+                    args[2] = predictedPosition
+
+                    -- Call original function with modified arguments
+                    return originalNamecall(self, unpack(args))
                 end
             end
         end
     end
 
-    return oldNamecall(self, ...)
+    -- Default behavior
+    return originalNamecall(self, ...)
 end)
 
-setreadonly(mt, true)
-
-
+-- Restore read-only protection
+setreadonly(rawMeta, true)
 
 
 
